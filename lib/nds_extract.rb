@@ -37,7 +37,6 @@ def movies_with_director_key(name, movies_collection)
   new_array = []
   idx = 0
   while idx < movies_collection.length do
-    #binding.pry
     new_array << movie_with_director_name(name, movies_collection[idx])
     idx += 1
   end
@@ -118,7 +117,6 @@ end
 # call code. You'll have to "see-saw" to get this to work!
 
 def studios_totals(nds)
-  binding.pry
   a_o_a_movies_with_director_names = movies_with_directors_set(nds)
   movies_with_director_names = flatten_a_o_a(a_o_a_movies_with_director_names)
   return gross_per_studio(movies_with_director_names)
