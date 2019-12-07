@@ -65,7 +65,6 @@ def gross_per_studio(collection)
   while idx < collection.length do
     if new_hash.has_key?(collection[idx][:studio])
        new_hash[collection[idx][:studio]] += collection[idx][:worldwide_gross]
-       binding.pry
     else
       new_hash[collection[idx][:studio]] = collection[idx][:worldwide_gross]
     end
