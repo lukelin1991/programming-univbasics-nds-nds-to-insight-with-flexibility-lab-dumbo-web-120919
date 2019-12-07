@@ -67,6 +67,7 @@ def gross_per_studio(collection)
   while idx < collection.length do
     movie = collection[idx]
     binding.pry
+    temp_arr = []
 
 
     if collection[idx][:studio] == "Alpha Films"
