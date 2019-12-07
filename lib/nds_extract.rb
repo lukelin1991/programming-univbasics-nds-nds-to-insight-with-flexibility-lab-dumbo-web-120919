@@ -65,7 +65,6 @@ def gross_per_studio(collection)
   a_gross = 0
   f_gross = 0
   while idx < collection.length do
-    binding.pry
     movie = collection[idx]
     if collection[idx][:studio] == "Alpha Films"
       a_gross += collection[idx][:worldwide_gross]
