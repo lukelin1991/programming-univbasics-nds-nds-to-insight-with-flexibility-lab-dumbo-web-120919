@@ -64,16 +64,17 @@ def gross_per_studio(collection)
   new_hash = {}
   a_gross = 0
   f_gross = 0
+  perm_arr = []
+  hash_index = 0
+
+  while hash_index < collection.length do
+    
+  end
+
   while idx < collection.length do
     movie = collection[idx]
     binding.pry
-    hash_index = 0
 
-    while hash_index < movie[idx].length do
-
-
-      hash_index += 1
-    end
 
     if collection[idx][:studio] == "Alpha Films"
       a_gross += collection[idx][:worldwide_gross]
