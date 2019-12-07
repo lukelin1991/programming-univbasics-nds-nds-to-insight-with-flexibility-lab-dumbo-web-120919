@@ -93,6 +93,7 @@ def movies_with_directors_set(source)
     #   temp_name = {}
        temp_name[:title] = source[idx][:movies][idx_2][:title]
        temp_name[:director_name] = source[idx][:name]
+       binding.pry
     #   temp_array << temp_name
     #   idx_2 += 1
     #   new_array << temp_array
