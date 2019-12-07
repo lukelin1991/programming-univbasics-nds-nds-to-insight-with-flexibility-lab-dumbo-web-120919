@@ -71,6 +71,7 @@ def gross_per_studio(collection)
 
     while hash_index < movie[idx].length do
 
+
       hash_index += 1
     end
 
